@@ -1,0 +1,18 @@
+footer {
+  background-color: #e09132;
+  height: 187px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  footer {
+    background-color: #e09132;
+    height: 267px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
