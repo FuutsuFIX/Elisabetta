@@ -1,6 +1,6 @@
-* {
+/* {
   border: 1px solid red;
-}
+}*/
 footer {
   background-color: #e09132;
   height: 267px;
@@ -43,7 +43,6 @@ footer .div5 a {
 @media only screen and (min-width: 769px) {
   footer {
     background-color: #e09132;
-    height: 267px;
   }
 }
 

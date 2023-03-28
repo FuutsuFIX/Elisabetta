@@ -1,3 +1,11 @@
+:root {
+  --normal-blue: #273747;
+  --dark-blue: #0d131d;
+  --primary-white: #fffff0;
+  --primary-brown: #b7997f;
+  --primary-orange: #e09132;
+}
+
 html {
   font-size: 50%;
 }
@@ -25,9 +33,19 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: var(--dark-blue);
 }
+
 @media only screen and (min-width: 1080px) {
   html {
     font-size: 100%;
   }
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+a:hover {
+  text-decoration: underline;
 }
