@@ -1,6 +1,9 @@
+* {
+  border: 1px solid red;
+}
 footer {
   background-color: #e09132;
-  height: 187px;
+  height: 267px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -22,6 +25,7 @@ footer .div5 a {
 
 .div1 {
   grid-area: 2 / 2 / 3 / 7;
+  text-align: left;
 }
 .div2 {
   grid-area: 3 / 2 / 5 / 4;
@@ -36,14 +40,14 @@ footer .div5 a {
   grid-area: 5 / 2 / 6 / 7;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
   footer {
     background-color: #e09132;
     height: 267px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   footer {
     display: grid;
     grid-template-columns: 0.5fr repeat(9, 1fr) 0.5fr;
