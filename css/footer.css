@@ -1,6 +1,7 @@
 /* {
   border: 1px solid red;
 }*/
+
 footer {
   background-color: #e09132;
   height: 267px;
@@ -22,7 +23,6 @@ footer a {
 footer .div5 a {
   display: inline-block;
 }
-
 .div1 {
   grid-area: 2 / 2 / 3 / 7;
   text-align: left;
